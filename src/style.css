@@ -104,3 +104,15 @@ h6{
 .projetcs h4{
     text-align: center;
 }
+.list-social{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+#social{
+    width: 70px;
+    height: 70px;
+    
+}
