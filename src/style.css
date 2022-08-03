@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=IBM+Plex+Sans&display=swap');
+body{
+    background: rgb(30,32,33);
+    font-family: 'Hind Siliguri', sans-serif;
+    color: aliceblue;
+}
+em{
+    font-style: italic;
+    font-weight: 700;
+}
+h1{
+    font-weight: 550;
+    font-size: 50px;
+    margin-left: 1.5%;
+}
+p{
+    font-size: 20px;
+    margin-left: 0.7%;
+}
+h6{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+}
+.top-page{
+    width: max-content;
+    height: 10%;
+    
+}
+.menu-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 155px;
+    padding: 20px;
+    background-color: #27292b;
+    border-top: 5px solid rgb(97,100,105) ;
+    border-bottom: 5px solid rgb(97,100,105);
+}
+.complete{
+    display: flex;
+    gap: 20px;
+}
+.uncomplete{
+    display: flex;
+    gap: 20px;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white; 
+}
+.complete #logo:hover{
+    border: 4px solid #39CF10;
+    transform: scale(1.1);
+}
+.uncomplete #logo:hover{
+    border: 4px solid #cc1f05;
+    transform: scale(1.1);
+}
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 5px solid rgb(97,100,105)
+}
+.projetcs{
+    display: flex;
+    flex-direction: column;
+    
+}
+.projetcs h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.projetcs h3{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.card{
+    margin-left: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 24%;
+}
+
+.card .img-project:hover{
+    border: 5px #0000ff double;
+}
+
+.img-project{
+    margin-top: 4px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 5px double rgb(143, 233, 141);
+}
+.projetcs h4{
+    text-align: center;
+}
